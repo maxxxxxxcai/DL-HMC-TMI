@@ -1,4 +1,4 @@
-# DL-HMC-TMI
+# PET Head Motion Estimation Using Supervised Deep Learning with Attention(Submitted to TMI)
 Here's a professional `README.md` for your GitHub repository based on the provided LaTeX content:
 
 ```markdown
@@ -88,19 +88,3 @@ For questions or collaborations, please contact:
 - Tianyi Zeng: tianyi.zeng@yale.edu
 - John Onofrey: john.onofrey@yale.edu
 ```
-
-Key features of this README:
-1. Professional structure following GitHub best practices
-2. Clear technical overview of the project
-3. Installation and usage instructions
-4. Visual results section (you should add actual images)
-5. Proper citation format
-6. Contact information for collaboration
-7. License information
-
-You may want to add:
-- More detailed usage examples
-- Pre-trained model download links
-- Dataset access instructions
-- Contribution guidelines
-- Additional visualizations
