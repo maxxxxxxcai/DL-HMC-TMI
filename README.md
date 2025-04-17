@@ -1,4 +1,4 @@
-# PET Head Motion Estimation Using Supervised Deep Learning with Attention(Submitted to TMI)
+# PET Head Motion Estimation Using Supervised Deep Learning with Attention (Submitted to TMI)
 # Abstract
 Head movement poses a significant challenge in brain positron emission tomography (PET) imaging, resulting in image artifacts and tracer uptake quantification inaccuracies. Effective head motion estimation and correction are crucial for precise quantitative image analysis and accurate diagnosis of neurological disorders.
 To overcome this limitation, we propose a deep-learning head motion correction approach with cross-attention (DL-HMC++) to predict rigid head motion from one-second 3D PET raw data.
@@ -23,40 +23,6 @@ This work is developed by:
 - **John A. Onofrey** (Departments of Radiology, Biomedical Engineering, and Urology, Yale University)
 
 *(Zhuotong Cai and Tianyi Zeng contributed equally to this work)*
-```markdown
-# PET Head Motion Estimation Using Supervised Deep Learning with Attention
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-This repository contains the implementation of DL-HMC++, a deep learning approach for head motion correction in PET imaging using cross-attention mechanisms.
-
-## Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Datasets](#datasets)
-- [Results](#results)
-- [Citation](#citation)
-- [License](#license)
-- [Contact](#contact)
-
-## Overview
-Head movement poses significant challenges in brain PET imaging, causing artifacts and quantification inaccuracies. While hardware-based motion tracking (HMT) has limited clinical applicability, our DL-HMC++ model predicts rigid head motion from 1-second 3D PET raw data using a supervised deep learning approach with cross-attention mechanisms.
-
-## Key Features
-- Cross-attention mechanism for accurate motion estimation
-- Supports multiple PET scanners (HRRT and mCT)
-- Compatible with various radiotracers (¹⁸F-FDG, ¹⁸F-FPEB, ¹¹C-UCB-J, and ¹¹C-LSN3172176)
-- Produces motion-free images with clear brain structure delineation
-- Achieves <1.5% SUV difference ratio compared to gold-standard HMT
-
-## Installation
-```bash
-git clone https://github.com/yourusername/pet-motion-correction.git
-cd pet-motion-correction
-pip install -r requirements.txt
-```
 
 ## Usage
 ```python
