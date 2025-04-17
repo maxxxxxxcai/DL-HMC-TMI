@@ -1,5 +1,4 @@
 # PET Head Motion Estimation Using Supervised Deep Learning with Attention (Submitted to TMI)
-## 
 This work is developed by:
 
 - **Zhuotong Cai** (Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University & Department of Radiology and Biomedical Imaging, Yale University)
