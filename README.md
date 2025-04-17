@@ -8,8 +8,21 @@ Quantitative and qualitative results demonstrate that DL-HMC++ consistently outp
 Brain region of interest standard uptake value (SUV) analysis exhibits average difference ratios between DL-HMC++ and ground-truth HMT to be 1.2\%$\pm$0.5\% for HRRT and 0.5\%$\pm$0.2\% for mCT.
 DL-HMC++ demonstrates the potential for data-driven PET head motion correction to remove the burden of HMT, making motion correction accessible to clinical populations beyond research settings.
 
+## Authors
+This work is developed by:
 
+- **Zhuotong Cai** (Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University & Department of Radiology and Biomedical Imaging, Yale University)
+- **Tianyi Zeng** (Department of Radiology and Biomedical Imaging, Yale University)
+- **Jiazhen Zhang** (Department of Biomedical Engineering, Yale University)
+- **Eléonore V. Lieffrig** (Department of Biomedical Engineering, Yale University)
+- **Kathryn Fontaine** (Department of Radiology and Biomedical Imaging, Yale University)
+- **Chenyu You** (Department of Electrical and Computer Engineering, Yale University)
+- **Enette Mae Revilla** (United Imaging Healthcare)
+- **James S. Duncan** (Departments of Radiology, Biomedical Engineering, and Electrical Engineering, Yale University)
+- **Yihuan Lu** (United Imaging Healthcare)
+- **John A. Onofrey** (Departments of Radiology, Biomedical Engineering, and Urology, Yale University)
 
+*(Zhuotong Cai and Tianyi Zeng contributed equally to this work)*
 ```markdown
 # PET Head Motion Estimation Using Supervised Deep Learning with Attention
 
