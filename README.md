@@ -1,5 +1,14 @@
 # PET Head Motion Estimation Using Supervised Deep Learning with Attention(Submitted to TMI)
-Here's a professional `README.md` for your GitHub repository based on the provided LaTeX content:
+# Abstract
+Head movement poses a significant challenge in brain positron emission tomography (PET) imaging, resulting in image artifacts and tracer uptake quantification inaccuracies. Effective head motion estimation and correction are crucial for precise quantitative image analysis and accurate diagnosis of neurological disorders.
+To overcome this limitation, we propose a deep-learning head motion correction approach with cross-attention (DL-HMC++) to predict rigid head motion from one-second 3D PET raw data.
+DL-HMC++ is trained in a supervised manner by leveraging existing dynamic PET scans with gold-standard motion measurements from external HMT.
+We evaluate DL-HMC++ on two PET scanners (HRRT and mCT) and four radiotracers ($^{18}$F-FDG, $^{18}$F-FPEB, $^{11}$C-UCB-J, and $^{11}$C-LSN3172176) to demonstrate the effectiveness and generalization of the approach in large cohort PET studies.
+Quantitative and qualitative results demonstrate that DL-HMC++ consistently outperforms benchmark motion correction techniques, producing motion-free images with clear delineation of brain structures and reduced motion artifacts that are indistinguishable from ground-truth HMT.
+Brain region of interest standard uptake value (SUV) analysis exhibits average difference ratios between DL-HMC++ and ground-truth HMT to be 1.2\%$\pm$0.5\% for HRRT and 0.5\%$\pm$0.2\% for mCT.
+DL-HMC++ demonstrates the potential for data-driven PET head motion correction to remove the burden of HMT, making motion correction accessible to clinical populations beyond research settings.
+
+
 
 ```markdown
 # PET Head Motion Estimation Using Supervised Deep Learning with Attention
