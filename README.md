@@ -21,7 +21,7 @@ Quantitative and qualitative results demonstrate that DL-HMC++ consistently outp
 Brain region of interest standard uptake value (SUV) analysis exhibits average difference ratios between DL-HMC++ and ground-truth HMT to be 1.2%&plusmn;0.5% for HRRT and 0.5%&plusmn;0.2% for mCT.
 DL-HMC++ demonstrates the potential for data-driven PET head motion correction to remove the burden of HMT, making motion correction accessible to clinical populations beyond research settings.
 
-![PDF Preview](path/to/main_figure.png)
+![PDF Preview](main_figure.png)
 
 
 ## Usage
