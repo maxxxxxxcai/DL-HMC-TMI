@@ -21,25 +21,8 @@ Quantitative and qualitative results demonstrate that DL-HMC++ consistently outp
 Brain region of interest standard uptake value (SUV) analysis exhibits average difference ratios between DL-HMC++ and ground-truth HMT to be 1.2%&plusmn;0.5% for HRRT and 0.5%&plusmn;0.2% for mCT.
 DL-HMC++ demonstrates the potential for data-driven PET head motion correction to remove the burden of HMT, making motion correction accessible to clinical populations beyond research settings.
 
-![PDF Preview](main_figure.png)
+![Main Figure Preview](main_figure.png)
 
-
-## Usage
-```python
-from dl_hmc import MotionCorrector
-
-# Initialize model
-model = MotionCorrector(device='cuda')
-
-# Load PET raw data
-pet_data = load_your_pet_data()
-
-# Predict motion parameters
-motion_params = model.predict(pet_data)
-
-# Apply motion correction
-corrected_images = apply_correction(pet_data, motion_params)
-```
 
 ## Datasets
 The model was evaluated on datasets from:
@@ -54,7 +37,6 @@ Quantitative results compared to ground-truth HMT:
 | mCT     | 0.5% ± 0.2%                 |
 
 Sample motion-corrected images:
-![Example Results](docs/images/results_sample.png)
 
 ## Citation
 If you use this work, please cite:
