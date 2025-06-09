@@ -19,7 +19,7 @@ from monai.transforms import (
     ToTensord
 )
 
-from dlhmc.utils import Relative_motion_A_to_B_12
+from HRRT.utils import Relative_motion_A_to_B_12
 
 
 __all__ = [

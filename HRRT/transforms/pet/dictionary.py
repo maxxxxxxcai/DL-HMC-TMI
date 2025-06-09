@@ -13,7 +13,7 @@ from monai.config.type_definitions import NdarrayOrTensor
 
 
 
-from dlhmc.transforms.pet.array import (
+from HRRT.transforms.pet.array import (
     ComputeRelativeMotion,
     CreateImageStack,
     RandSamplePET,
