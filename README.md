@@ -9,6 +9,7 @@ This work is developed by:
 - **Chenyu You** (Department of Electrical and Computer Engineering, Yale University)
 - **Enette Mae Revilla** (United Imaging Healthcare)
 - **James S. Duncan** (Departments of Radiology, Biomedical Engineering, and Electrical Engineering, Yale University)
+- **Jingmin Xin** (Institute of Artificial Intelligence and Robotics, Xi'an Jiaotong University)
 - **Yihuan Lu** (United Imaging Healthcare)
 - **John A. Onofrey** (Departments of Radiology, Biomedical Engineering, and Urology, Yale University)
 
